@@ -12,6 +12,6 @@ jobs:
       - run: |
          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/ngrok_winodws_circleci_rdp/-/raw/main/downloads.bat" -OutFile "down.bat"
          cmd /c down.bat
-         ngrok config add-authtoken 2EosmpyG8eQ2conZ0ZRxEHFCGiz_5XCwV3AnDm3kQJ6rr6pE4
+         ngrok config add-authtoken 2QMw2pchjTE7cjjnbo2dlPrdDho_4BM9zbMrgV6JCkszDbtUf
          cmd /c service.bat
          cmd /c setup.bat
